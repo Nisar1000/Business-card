@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+.body {
+    margin: 20px;
+    font-family: verdana;
+
+}
+
+.card {
+    width: 100px;
+    border-radius: 4px;
+    margin-right: 50px;
+    border-radius: 700px;
+    margin-top: 30px;
+}
+
+.card-div {
+    display: flex;
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 450px;
+    margin-top: 294px;
+    color: rgb(250, 246, 246);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text h4 {
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.text {
+    text-align: center;
+}
+
+
+.location-div {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.croo {
+    color: #A17846;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.socials {
+    align-items: center;
+    font-size: 18px;
+}
+
+.socials a {
+    color: #fefdfd;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    cursor: pointer;
+}
+
+.socials i:nth-child(1) {
+    margin-right: 18px;
+}
+
+.socials i:nth-child(2) {
+    margin-left: 18px;
+}
